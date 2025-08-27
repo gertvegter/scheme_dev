@@ -5,3 +5,8 @@
    ((< x 0) (- x))))
 
 (abs (- 3))
+
+(define (cube-of x)
+  (* x x x))
+
+(cube-of 5)
